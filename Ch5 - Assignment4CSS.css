@@ -1,0 +1,62 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;    
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238; 
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+    
+}
+
+/* table formatting */
+
+table {
+   margin: 0.5em auto;
+    width: 90%;
+	color: #666;
+	font-size: 0.85em;
+}
+table caption {
+	background-color: #607D8B; 
+	color: white;
+	font-size: 1em;
+	padding: 0.5rem;
+	text-align: center;
+}
+tr {
+padding: 0.75rem;   
+}
+td, th {
+   padding: 0.75rem;   
+    text-align: left;
+}
+th { 
+    font-size: 1.2em;
+}
+
+legend{
+  background-color: #607D8B; 
+	color: white;
+	font-size: 1em;
+	padding: 0.5rem;
+	text-align: center;
+}
+
